@@ -1,8 +1,10 @@
+import lodash from 'lodash'
+
+console.log(lodash.camelCase('test lodasha'))
+
 const Paragraph = () => {
 
-  return (
-    <p className="paragraph" id="first-paragraph">Lorem ipsum dolor sit amet</p>
-  )
+  
 
 }
 
