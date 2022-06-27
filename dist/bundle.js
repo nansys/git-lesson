@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelector("#app"),t=document.createElement("h1");t.textContent="Hello vscode",e.appendChild(t)})();

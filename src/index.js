@@ -1,13 +1,5 @@
-import lodash from 'lodash'
+const div = document.querySelector('#app')
+const h1 = document.createElement('h1')
+h1.textContent = 'Hello vscode .'
 
-console.log(lodash.camelCase('test lodasha'))
-
-const Paragraph = () => {
-
-  
-
-}
-
-const appContainer = document.querySelector('#app')
-
-ReactDOM.render(<Paragraph />, appContainer)
+div.appendChild(h1)
